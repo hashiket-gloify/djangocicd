@@ -20,6 +20,6 @@ docker pull  hashiket/django-app-1:latest
 
 # Launch a new container with the latest image
 echo "Launching a new container with the latest image..."
-docker run -d --name Django-App -p 8000:8000 
+docker run -d --name django-app -p 8000:8000 
 
 echo "Docker container has been updated and launched."
