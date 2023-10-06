@@ -1,3 +1,4 @@
+# !/bin/bash
 set -e
 
 docker pull hashiket/django-app
