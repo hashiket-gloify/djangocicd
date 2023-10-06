@@ -16,10 +16,10 @@ docker rmi $(docker images -q)
 # Pull new Docker images
 echo "Pulling new Docker images..."
 docker pull  hashiket/django-app-1:latest
+docker pull hashiket/django-app-1:latest
 
 
 # Launch a new container with the latest image
 echo "Launching a new container with the latest image..."
-docker run -d --name django-app-1 -p 8000:8000 
-
+docker run -d -p 8000:8000 hashiket/django-app
 echo "Docker container has been updated and launched."
